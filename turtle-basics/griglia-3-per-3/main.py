@@ -14,6 +14,34 @@ pippo.left(90);
 pippo.forward(300);
 
 # aggiungere codice qui sotto
+pippo.penup()
+pippo.left(90)
+pippo.forward(100)
+pippo.pendown()
+pippo.left(90)
+pippo.forward(300)
 
+pippo.penup()
+pippo.right(90)
+pippo.forward(100)
+pippo.right(90)
+pippo.pendown()
+pippo.forward(300)
+
+pippo.penup()
+pippo.left(90)
+pippo.forward(100)
+pippo.left(90)
+pippo.forward(100)
+pippo.pendown()
+pippo.left(90)
+pippo.forward(300)
+
+pippo.penup()
+pippo.right(90)
+pippo.forward(100)
+pippo.right(90)
+pippo.pendown()
+pippo.forward(300)
 
 turtle.done()

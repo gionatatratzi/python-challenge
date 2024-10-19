@@ -14,3 +14,7 @@ pippo.left(90)
 pippo.forward(75)
 
 # aggiungere il codice qui sotto (non modificare le righe sopra questo commento)
+pippo.left(90)
+pippo.forward(150)
+pippo.left(90)
+pippo.forward(75)
