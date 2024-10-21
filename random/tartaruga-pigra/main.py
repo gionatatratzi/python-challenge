@@ -33,9 +33,15 @@ distanza = 0
 
 ### aggiungere il codice qui sotto ###
 
-
-
+if x1 < x2 and x1 < x3:
+    distanza = x1
+elif x2 < x1 and x2 < x3:
+    distanza = x2
+elif x3 < x1 and x3 < x2:
+    distanza = x3
 
 ### non toccare le linee sotto: devono essere le ultime del programma
 pippo.forward(distanza)
 controllaSoluzione(x1,x2,x3,distanza)
+
+turtle.done()
