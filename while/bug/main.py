@@ -8,7 +8,7 @@ ink = 10000
 
 while ink>0 :
     # genera in modo casuale il raggio del pallino
-    r = random.randint(20,50)
+    r = 20
     
     # disegna il pallino
     t.dot(r)
@@ -25,3 +25,5 @@ while ink>0 :
     t.setpos(x,y)
     # riabbassa la testina
     t.down()
+
+turtle.done()
