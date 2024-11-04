@@ -38,12 +38,15 @@ while mano < 16:
     if punti_utente == 3:
         break
 
+print("\n**************************************************************************************")
 print("Punteggio " + str(nome_utente) + ": " + str(punti_utente))
 print("Punteggio Computer: " + str(punti_computer))
 
-if punti_computer >= 3 and punti_utente >= 3:
+if punti_computer == punti_utente:
     print("Hanno vinto in parità " + str(nome_utente) + " e il Computer")
-elif punti_utente >= 3:
+
+elif punti_utente > punti_computer:
     print("Ha vinto " + str(nome_utente))
-elif punti_computer >= 3:
+
+elif punti_computer > punti_utente:
     print("Ha vinto il Computer")
